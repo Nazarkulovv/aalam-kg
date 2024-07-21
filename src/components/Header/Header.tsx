@@ -66,7 +66,11 @@ const HeaderModal: React.FC<HeaderModalProps> = ({ close }) => {
 							</div>
 						</div>
 						<div className='modalBody'>
-							<Input variant='filled' placeholder='Поиск' />
+							<Input
+								className='headerModalInput'
+								variant='filled'
+								placeholder='Поиск'
+							/>
 							<div className='modalIcons'>
 								<div>
 									<Image src={basketModal} alt='Basket icon' />
