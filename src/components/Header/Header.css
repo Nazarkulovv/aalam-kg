@@ -1,0 +1,244 @@
+.header {
+	background: #0e0e0e;
+	padding: 20px 50px;
+	position: relative;
+	box-shadow: 0px 0px 50px -10px #9747ff14;
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+	justify-content: space-between;
+}
+.headerImgINText {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 700px;
+}
+.headerText {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 500px;
+}
+.headerText a {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+}
+.headerSearchInProfile {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 400px;
+}
+.headerSearchInProfile input::placeholder {
+	color: white;
+	font-size: 15px;
+}
+.headerSearchInProfile input {
+	background: none;
+	color: white;
+	font-size: 15px;
+}
+.headerSearchInProfile img {
+	width: 20px;
+	height: 18px;
+}
+.headerIcons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 200px;
+}
+.img1 {
+	width: 40px;
+	height: 30px;
+	object-fit: cover;
+}
+.headerTextH4 {
+	font-weight: 400;
+	color: white;
+}
+.headerModalMain {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+@media (max-width: 1404px) {
+	.headerImgINText {
+		width: 537px;
+	}
+	.headerText {
+		width: 403px;
+	}
+}
+@media (max-width: 1204px) {
+	.headerImgINText {
+		width: 467px;
+	}
+	.headerText {
+		width: 338px;
+	}
+	.headerSearchInProfile input {
+		width: 140px;
+	}
+	.headerSearchInProfile input::placeholder {
+		font-size: 13px;
+	}
+	.headerSearchInProfile input {
+		font-size: 13px;
+	}
+	.headerSearchInProfile {
+		width: 290px;
+	}
+	.headerIcons {
+		width: 152px;
+	}
+	.headerText a {
+		font-size: 14px;
+	}
+}
+@media (max-width: 990px) {
+	.headerImgINText {
+		width: 410px;
+	}
+	.headerText {
+		width: 290px;
+	}
+	.headerSearchInProfile input {
+		width: 100px;
+	}
+	.headerSearchInProfile input::placeholder {
+		font-size: 12px;
+	}
+	.headerSearchInProfile input {
+		font-size: 12px;
+	}
+	.headerSearchInProfile {
+		width: 238px;
+	}
+	.headerIcons {
+		width: 118px;
+	}
+
+	.headerText a {
+		font-size: 12px;
+	}
+	.headerTextH4 {
+		font-weight: 400;
+		color: white;
+		font-size: 12px;
+	}
+}
+@media (max-width: 990px) {
+	.headerImgINText {
+		width: 410px;
+	}
+	.headerText {
+		width: 290px;
+	}
+	.headerSearchInProfile input {
+		width: 100px;
+	}
+	.headerSearchInProfile input::placeholder {
+		font-size: 12px;
+	}
+	.headerSearchInProfile input {
+		font-size: 12px;
+	}
+	.headerSearchInProfile {
+		width: 238px;
+	}
+	.headerIcons {
+		width: 118px;
+	}
+
+	.headerText a {
+		font-size: 12px;
+	}
+	.headerTextH4 {
+		font-weight: 400;
+		color: white;
+		font-size: 12px;
+	}
+}
+
+.modalContainer {
+	background: #ffffff;
+	position: absolute;
+	z-index: 99;
+	padding: 20px;
+	top: -5pc;
+	left: 0;
+	width: 106%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.modalNav {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+}
+
+.hedaeModalA,
+.modalIcons,
+.modalBody {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.modalBody input {
+	border: none;
+	padding-bottom: 3px;
+	border-bottom: 1px solid black;
+}
+
+.modalIcons div {
+	display: flex;
+	align-items: center;
+
+	gap: 20px;
+}
+.headerModalMain {
+	width: 90%;
+}
+.modalIcons div img {
+	width: 20px;
+	height: 20px;
+}
+
+.modalIcons div h4 {
+	width: 20px;
+	height: 20px;
+}
+
+.modalTop {
+	margin-top: 2pc;
+}
+
+.hedaerModalImg {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.hedaerModalImg div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 60%;
+}
+.headerModalA a {
+}
+
+.modalIcons div h3 {
+	font-family: Gotham;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: -0.05em;
+}
