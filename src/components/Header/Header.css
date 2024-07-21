@@ -105,6 +105,7 @@
 	border-radius: none;
 	padding-bottom: 3px;
 	margin-bottom: 1pc;
+	margin-top: 1pc;
 	border-bottom: 1px solid black;
 }
 .modalIcons div {
@@ -249,6 +250,17 @@
 		font-weight: 400;
 		color: white;
 		font-size: 12px;
+	}
+}
+@media (max-width: 780px) {
+	#header {
+		background: #ebd3d3;
+	}
+	.modalContainer {
+		width: 104%;
+	}
+	.modalContainer {
+		width: 104%;
 	}
 }
 @media (max-width: 600px) {
