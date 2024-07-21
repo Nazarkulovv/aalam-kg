@@ -92,7 +92,9 @@
 }
 .modalBody input {
 	border: none;
+	border-radius: none;
 	padding-bottom: 3px;
+	margin-bottom: 1pc;
 	border-bottom: 1px solid black;
 }
 .modalIcons div {
@@ -135,9 +137,6 @@
 	font-weight: 400;
 	line-height: 16px;
 	letter-spacing: -0.05em;
-}
-.headerModalInput {
-	border: 1px solid #00000033;
 }
 
 @media (max-width: 1404px) {
@@ -247,9 +246,15 @@
 	.modalContainer {
 		width: 101%;
 	}
+	.hedaerModalImg div {
+		width: 65%;
+	}
 }
 @media (max-width: 400px) {
 	.modalContainer {
 		width: 98%;
+	}
+	.hedaerModalImg div {
+		width: 69%;
 	}
 }
