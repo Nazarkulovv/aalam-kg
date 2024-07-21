@@ -1,11 +1,12 @@
 'use client'
+import Image from 'next/image'
 import { useState } from 'react'
 import { BiPhoneCall } from 'react-icons/bi'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import styled from 'styled-components'
+import image from '../../assets/wholesaleClothingImage.png'
 import './WholesaleClothing.css'
-
 const StyledBiPhoneCall = styled(BiPhoneCall)`
 	transition: color 0.3s, background 0.3s;
 	&:hover {
@@ -58,31 +59,32 @@ export default function WholesaleClothing() {
 								<button>Каталог</button>
 							</div>
 						</div>
-						<div className='wholesaleClothingImages'>
-							<div
-								onMouseEnter={() => setHoverCall(true)}
-								onMouseLeave={() => setHoverCall(false)}
-							>
-								{hoverCall && <h4>Позвонить</h4>}
-								<StyledBiPhoneCall />
-							</div>
-							<div
-								onMouseEnter={() => setHoverTel(true)}
-								onMouseLeave={() => setHoverTel(false)}
-							>
-								{hoverTel && <h4>Telegram</h4>}
-								<StyledFaTelegramPlane />
-							</div>
-							<div
-								onMouseEnter={() => setHoverWhat(true)}
-								onMouseLeave={() => setHoverWhat(false)}
-							>
-								{hoverWhat && <h4>WhatsApp</h4>}
-								<StyledIoLogoWhatsapp />
+						<div className='whoImagesPis'>
+							<div className='wholesaleClothingImages'>
+								<div
+									onMouseEnter={() => setHoverCall(true)}
+									onMouseLeave={() => setHoverCall(false)}
+								>
+									{hoverCall && <h4>Позвонить</h4>}
+									<StyledBiPhoneCall />
+								</div>
+								<div
+									onMouseEnter={() => setHoverTel(true)}
+									onMouseLeave={() => setHoverTel(false)}
+								>
+									{hoverTel && <h4>Telegram</h4>}
+									<StyledFaTelegramPlane />
+								</div>
+								<div
+									onMouseEnter={() => setHoverWhat(true)}
+									onMouseLeave={() => setHoverWhat(false)}
+								>
+									{hoverWhat && <h4>WhatsApp</h4>}
+									<StyledIoLogoWhatsapp />
+								</div>
 							</div>
 						</div>
 					</div>
-					<div className='background-image'></div>
 				</div>
 			</div>
 		</section>

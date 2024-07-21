@@ -4,7 +4,6 @@
 	width: 100%;
 	z-index: 1000;
 }
-
 .header {
 	background: #0e0e0e;
 	padding: 20px 50px;
@@ -15,7 +14,6 @@
 	border-radius: 30px;
 	justify-content: space-between;
 }
-
 .headerImgINText {
 	display: flex;
 	align-items: center;
@@ -255,7 +253,6 @@
 }
 @media (max-width: 780px) {
 	#header {
-		background: #ebd3d3;
 	}
 	.modalContainer {
 		width: 104%;

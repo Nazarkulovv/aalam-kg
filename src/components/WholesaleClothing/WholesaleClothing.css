@@ -1,42 +1,35 @@
-/* WholesaleClothing.css */
 #wholesaleClothing {
 	padding-top: 100px;
+	height: 100vh;
 	position: relative;
 }
-
 .wholesaleClothing {
 	display: flex;
 	align-items: start;
 	justify-content: space-between;
 	padding: 50px 0;
 }
-
 .wholesaaleClonthingTextInImages {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
 }
-
 .wholesaleClothingText {
 	max-width: 600px;
 	margin-top: 5pc;
 }
-
 .wholesaleClothingText h4 {
 	font-size: 2.5rem;
 	margin-bottom: 20px;
 }
-
 .wholesaleClothingText span {
 	color: #ff5555;
 }
-
 .wholesaleClothingText p {
 	font-size: 1.25rem;
 	margin-bottom: 30px;
 }
-
 .whowholesaleClothingBlock {
 	display: flex;
 	padding-left: 1pc;
@@ -45,16 +38,18 @@
 	align-items: end;
 	justify-content: space-between;
 }
-
 .whowholesaleClothingBlockTexts {
 	margin-right: 20px;
 }
-
 .whowholesaleClothingBlockTexts h4 {
 	font-size: 1.25rem;
 	margin-bottom: 10px;
 }
-
+.whoImagesPis {
+	position: fixed;
+	right: 1pc;
+	bottom: 1pc;
+}
 .wholesaleClothingImages {
 	display: flex;
 	align-items: center;
@@ -62,7 +57,6 @@
 	gap: 10px;
 	flex-direction: column;
 }
-
 .wholesaleClothingImages div {
 	position: relative;
 	margin-right: 20px;
@@ -81,7 +75,6 @@
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
 }
-
 .wholesaleClothingImages h4 {
 	position: absolute;
 	bottom: 1px;
@@ -99,11 +92,9 @@
 	-ms-transform: translateX(-100%);
 	-o-transform: translateX(-100%);
 }
-
 .wholesaleClothingImages div:hover h4 {
 	display: block;
 }
-
 .background-image {
 	background: url('../../assets/note.png') no-repeat;
 	background-size: 100%;
@@ -111,7 +102,6 @@
 	height: 700px;
 	overflow: hidden;
 }
-
 button {
 	background-color: #ff5555;
 	color: #fff;
@@ -125,7 +115,21 @@ button {
 	-ms-border-radius: 40px;
 	-o-border-radius: 40px;
 }
-
 button:hover {
 	background-color: #e04b4b;
+}
+
+@media (max-width: 885px) {
+	.wholesaleClothingText h4 {
+		font-size: 2.2rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 1.1rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.25rem;
+	}
+	.whowholesaleClothingBlock {
+		width: 300px;
+	}
 }

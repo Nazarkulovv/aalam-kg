@@ -4,17 +4,14 @@
 	font-family: 'Hagrid Trial', 'Gill Sans', 'Gill Sans MT', Calibri,
 		'Trebuchet MS', sans-serif;
 }
-
 a {
 	text-decoration: none;
 }
-
 button,
 input {
 	outline: none;
 	cursor: pointer;
 }
-
 .container {
 	width: 90%;
 	margin: 0 auto;
@@ -23,12 +20,30 @@ input {
 	width: 75%;
 	margin: 0 auto;
 }
-
 .mainBac {
-	background: linear-gradient(
-		90deg,
-		rgba(255, 94, 94, 0.1),
-		rgba(255, 94, 94, 0.5)
-	);
-	height: 100vh;
+	background: url('../../src//assets/wholesaleClothingImage.png') no-repeat
+		center/cover;
+	height: 80vh;
+	background-position: right;
+	padding: 100px 0;
+}
+
+@media (max-width: 1320px) {
+	.mainBac {
+		background: url('../../src//assets/wholesaleClothingImage.png') no-repeat
+			center/cover;
+		height: 80vh;
+		background-position: right;
+		padding: 100px 0;
+	}
+}
+
+@media (max-width: 900px) {
+	.mainBac {
+		background: url(/_next/static/media/bg500.14d01e04.png) no-repeat center /
+			cover;
+		height: 39vh;
+		background-position: center;
+		padding: 100px 0 500px 0;
+	}
 }
