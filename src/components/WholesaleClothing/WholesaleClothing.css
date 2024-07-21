@@ -1,0 +1,421 @@
+#wholesaleClothing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url('../../assets/wholesaleClothingImage.png') no-repeat
+		center/cover;
+	height: 110vh;
+	margin-top: -1pc;
+	object-fit: cover;
+}
+.wholesaleClothing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+}
+.wholesaaleClonthingTextInImages {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	width: 100%;
+}
+.wholesaleClothingText {
+	margin-left: 8pc;
+	height: 67vh;
+}
+.wholesaleClothingImages {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.wholesaleClothingText h4 {
+	font-size: 58px;
+	font-weight: 600;
+	line-height: 60.9px;
+	letter-spacing: 1px;
+	width: 450px;
+}
+.wholesaleClothingText h4 span {
+	font-family: 'Hagrid Trial';
+	font-size: 80px;
+	font-weight: 900;
+	line-height: 73.5px;
+	letter-spacing: -1px;
+}
+.wholesaleClothingText p {
+	font-family: 'Gotham';
+	font-size: 24px;
+
+	font-weight: 400;
+	margin: 20px 0 50px 0;
+	line-height: 35.92px;
+	letter-spacing: -0.5px;
+}
+.whowholesaleClothingBlock {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	width: 150px;
+}
+.whowholesaleClothingBlockTexts {
+	border-left: 1px solid #ff5555;
+	padding-left: 1pc;
+	width: 240px;
+}
+.whowholesaleClothingBlock button {
+	background: #ff5555;
+	padding: 16px 60px 16px 60px;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	font-size: 20px;
+}
+.whowholesaleClothingBlockTexts h4 {
+	font-size: 18px;
+	font-weight: 400;
+	width: 170px;
+	line-height: 19.44px;
+	letter-spacing: -0.5px;
+}
+.wholesaleClothingImages {
+	position: fixed;
+	bottom: 3pc;
+	right: 4pc;
+}
+.wholesaleClothingImages img {
+	width: 50px;
+	height: 50px;
+}
+.wholesaleClothingImages div {
+	display: flex;
+	position: relative;
+	align-items: center;
+	gap: 10px;
+}
+.wholesaleClothingImages div h4 {
+	width: 100px;
+	background: #0000007d;
+	position: absolute;
+	right: 3.5pc;
+	border-radius: 8px;
+	transition: 2s;
+	width: 92px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 34px;
+	font-size: 14px;
+	color: white;
+	font-weight: 500;
+	line-height: 14px;
+	letter-spacing: 1px;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+.wholesaleClothingImages div svg {
+	background: #2b2b2a;
+	font-size: 22px;
+	border-radius: 50%;
+	color: white;
+	padding: 10px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+#wholesaleClothing {
+	background: url('../../assets/wholesaleClothingImage.png') no-repeat center;
+	background-size: cover;
+	height: 110vh;
+}
+@media (max-width: 1550px) {
+	#wholesaleClothing {
+		background-size: cover;
+		height: 102vh;
+	}
+}
+@media (max-width: 1400px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 110vh;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 5pc;
+		right: 4pc;
+	}
+}
+@media (max-width: 1320px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 109vh;
+	}
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 6pc;
+		right: 4pc;
+	}
+}
+@media (max-width: 1296px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 105vh;
+	}
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 6pc;
+		right: 4pc;
+	}
+}
+@media (max-width: 1236px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 97vh;
+	}
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 8pc;
+		right: 4pc;
+	}
+	.wholesaleClothingText h4 {
+		font-size: 50px;
+	}
+	.wholesaleClothingText h4 span {
+		font-size: 73px;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1228px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 97vh;
+	}
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 10pc;
+		right: 4pc;
+	}
+	.wholesaleClothingText h4 {
+		font-size: 50px;
+	}
+	.wholesaleClothingText h4 span {
+		font-size: 73px;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 18px;
+	}
+	.wholesaleClothingText {
+		height: 54vh;
+		margin-left: 1px;
+	}
+}
+@media (max-width: 1117px) {
+	.wholesaleClothingText {
+		height: 54vh;
+		margin-left: 1px;
+	}
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 85vh;
+	}
+	.wholesaleClothingText {
+		height: 54vh;
+	}
+
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 15pc;
+		right: 4pc;
+	}
+	.wholesaleClothingText h4 {
+		font-size: 50px;
+	}
+	.wholesaleClothingText h4 span {
+		font-size: 73px;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1020px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 80vh;
+	}
+	.wholesaleClothingText {
+		height: 54vh;
+		margin-left: 1px;
+	}
+
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 20pc;
+		right: 2pc;
+	}
+	.wholesaleClothingText h4 {
+		font-size: 40px;
+		width: 350px;
+	}
+	.wholesaleClothingText h4 span {
+		font-size: 60px;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		width: 116px;
+		font-size: 18px;
+	}
+	.wholesaleClothingText p {
+		font-family: 'Gotham';
+		font-size: 19px;
+	}
+}
+@media (max-width: 865px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 70vh;
+	}
+	.wholesaleClothingText {
+		height: 40vh;
+		margin-left: 1px;
+	}
+
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 23pc;
+		right: 2pc;
+	}
+	.wholesaleClothingText h4 {
+		font-size: 30px;
+		line-height: 2px;
+		width: 350px;
+	}
+	.wholesaleClothingText h4 span {
+		font-size: 48px;
+	}
+	.whowholesaleClothingBlock button {
+		padding: 10px 30px 10px 30px;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		width: 116px;
+		margin: 10px 0;
+		font-size: 18px;
+	}
+	.wholesaleClothingText p {
+		font-family: 'Gotham';
+		font-size: 19px;
+		line-height: 23px;
+		margin-top: 2pc;
+	}
+}
+@media (max-width: 780px) {
+	#wholesaleClothing {
+		background: url('../../assets/wholesaleClothingAdaptive.png') no-repeat;
+		background-size: 100%;
+	}
+	.wholesaleClothingText {
+		margin-left: 1px;
+	}
+
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 20pc;
+		right: 2pc;
+	}
+	.wholesaleClothingText h4 {
+		font-size: 26px;
+		line-height: 2px;
+		width: 300px;
+	}
+	.wholesaleClothingText h4 span {
+		font-size: 40px;
+	}
+	.whowholesaleClothingBlock button {
+		padding: 10px 30px 10px 30px;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		width: 116px;
+		margin: 10px 0;
+		font-size: 18px;
+	}
+	.wholesaleClothingText p {
+		font-family: 'Gotham';
+		font-size: 19px;
+		line-height: 23px;
+		margin-bottom: 1.5pc;
+		margin-top: 2pc;
+	}
+}
+@media (max-width: 600px) {
+	#wholesaleClothing {
+		background-size: 100%;
+		height: 63vh;
+	}
+	.wholesaleClothingText {
+		height: 33vh;
+		margin-left: 1px;
+	}
+
+	.wholesaleClothing {
+		height: 0;
+	}
+	.wholesaleClothingImages {
+		position: fixed;
+		bottom: 28pc;
+		right: 2pc;
+	}
+	.wholesaleClothingText h4 {
+		font-size: 26px;
+		line-height: 2px;
+		width: 300px;
+	}
+	.wholesaleClothingText h4 span {
+		font-size: 40px;
+	}
+	.whowholesaleClothingBlock button {
+		padding: 10px 30px 10px 30px;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		width: 116px;
+		margin: 10px 0;
+		font-size: 18px;
+	}
+	.wholesaleClothingText p {
+		font-family: 'Gotham';
+		font-size: 19px;
+		line-height: 23px;
+		margin-bottom: 1.5pc;
+		margin-top: 2pc;
+	}
+}
