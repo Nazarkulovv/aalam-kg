@@ -9,7 +9,7 @@ import './WholesaleClothing.css'
 const StyledBiPhoneCall = styled(BiPhoneCall)`
 	transition: color 0.3s, background 0.3s;
 	&:hover {
-		color: #ff5555;  
+		color: #ff5555;
 		background: white;
 	}
 `
@@ -36,55 +36,55 @@ export default function WholesaleClothing() {
 	const [hoverWhat, setHoverWhat] = useState<boolean>(false)
 
 	return (
-		<div>
-			<section id='wholesaleClothing'>
-				<div className='container'>
-					<div className='wholesaleClothing'>
-						<div className='wholesaaleClonthingTextInImages'>
-							<div className='wholesaleClothingText'>
-								<h4>
-									Оптом <span>одежда </span> из Кыргызстана
-								</h4>
-								<p>
-									От производителя, без посредников. <br />
-									Найдите лучшие товары вместе с нами!
-								</p>
-								<div className='whowholesaleClothingBlock'>
-									<div className='whowholesaleClothingBlockTexts'>
-										<h4>Выгодно </h4>
-										<h4 style={{ margin: '20px 0' }}>Надёжно </h4>
-										<h4>Удобно</h4>
-									</div>
-									<button>Каталог</button>
+		<section id='wholesaleClothing'>
+			<div className='containerNew'>
+				<div className='wholesaleClothing'>
+					<div className='wholesaaleClonthingTextInImages'>
+						<div className='wholesaleClothingText'>
+							<h4>
+								Оптом <span>одежда </span> <br />
+								из Кыргызстана
+							</h4>
+							<p>
+								От производителя, без посредников. <br />
+								Найдите лучшие товары вместе с нами!
+							</p>
+							<div className='whowholesaleClothingBlock'>
+								<div className='whowholesaleClothingBlockTexts'>
+									<h4>Выгодно </h4>
+									<h4>Надёжно </h4>
+									<h4>Удобно</h4>
 								</div>
+								<button>Каталог</button>
 							</div>
-							<div className='wholesaleClothingImages'>
-								<div
-									onMouseEnter={() => setHoverCall(true)}
-									onMouseLeave={() => setHoverCall(false)}
-								>
-									{hoverCall && <h4>Позвонить</h4>}
-									<StyledBiPhoneCall />
-								</div>
-								<div
-									onMouseEnter={() => setHoverTel(true)}
-									onMouseLeave={() => setHoverTel(false)}
-								>
-									{hoverTel && <h4>Telegram</h4>}
-									<StyledFaTelegramPlane />
-								</div>
-								<div
-									onMouseEnter={() => setHoverWhat(true)}
-									onMouseLeave={() => setHoverWhat(false)}
-								>
-									{hoverWhat && <h4>WhatsApp</h4>}
-									<StyledIoLogoWhatsapp />
-								</div>
+						</div>
+						<div className='wholesaleClothingImages'>
+							<div
+								onMouseEnter={() => setHoverCall(true)}
+								onMouseLeave={() => setHoverCall(false)}
+							>
+								{hoverCall && <h4>Позвонить</h4>}
+								<StyledBiPhoneCall />
+							</div>
+							<div
+								onMouseEnter={() => setHoverTel(true)}
+								onMouseLeave={() => setHoverTel(false)}
+							>
+								{hoverTel && <h4>Telegram</h4>}
+								<StyledFaTelegramPlane />
+							</div>
+							<div
+								onMouseEnter={() => setHoverWhat(true)}
+								onMouseLeave={() => setHoverWhat(false)}
+							>
+								{hoverWhat && <h4>WhatsApp</h4>}
+								<StyledIoLogoWhatsapp />
 							</div>
 						</div>
 					</div>
+					<div className='background-image'></div>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
 	)
 }

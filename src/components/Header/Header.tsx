@@ -16,7 +16,6 @@ import './Header.css'
 interface HeaderModalProps {
 	close: () => void
 }
-
 const HeaderMain: React.FC = () => {
 	return (
 		<>
@@ -48,7 +47,6 @@ const HeaderMain: React.FC = () => {
 		</>
 	)
 }
-
 const HeaderModal: React.FC<HeaderModalProps> = ({ close }) => {
 	return (
 		<div className='headerModalMain'>

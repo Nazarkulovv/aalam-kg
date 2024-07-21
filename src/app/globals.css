@@ -12,9 +12,23 @@ a {
 button,
 input {
 	outline: none;
+	cursor: pointer;
 }
 
 .container {
 	width: 90%;
 	margin: 0 auto;
+}
+.containerNew {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.mainBac {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 94, 94, 0.1),
+		rgba(255, 94, 94, 0.5)
+	);
+	height: 100vh;
 }
