@@ -38,7 +38,10 @@
 .headerSearchInProfile input {
 	background: none;
 	color: white;
+	padding-bottom: 3px;
 	font-size: 15px;
+	border: none;
+	border-bottom: 1px solid #747474;
 }
 .headerSearchInProfile img {
 	width: 20px;
