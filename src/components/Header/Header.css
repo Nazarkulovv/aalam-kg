@@ -256,6 +256,9 @@
 		background: #0e0e0e;
 		padding: 10px 30px;
 	}
+	.modalContainer {
+		margin-top: 1pc;
+	}
 }
 @media (max-width: 780px) {
 	.header {
