@@ -19,7 +19,9 @@ export default function Categories() {
 								<div className='cat-block'>
 									<h4>Мужская одежда</h4>
 									<h5>
-										Футболки <span></span> Спортивки <span></span> Брюки
+										<span className='cat-blcokH5'>Футболки</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Спортивки</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Брюки</span>
 									</h5>
 								</div>
 							</div>
@@ -28,7 +30,9 @@ export default function Categories() {
 								<div className='cat-block'>
 									<h4>Женская одежда</h4>
 									<h5>
-										Плятья <span></span> Двойки <span></span> Юбки
+										<span className='cat-blcokH5'>Плятья</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Двойки</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Юбки</span>
 									</h5>
 								</div>
 							</div>
@@ -37,7 +41,9 @@ export default function Categories() {
 								<div className='cat-block'>
 									<h4>Детская одежда</h4>
 									<h5>
-										Кепки <span></span> Сарафаны <span></span> Футболки{' '}
+										<span className='cat-blcokH5'>Кепки</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Сарафаны</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Футболки</span>
 									</h5>
 								</div>
 							</div>

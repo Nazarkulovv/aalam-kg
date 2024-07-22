@@ -32,7 +32,7 @@ input {
 		background: url('../../src//assets/wholesaleClothingImage.png') no-repeat
 			center/cover;
 		height: 80vh;
-		background-position: right;
+
 		padding: 100px 0;
 	}
 }
