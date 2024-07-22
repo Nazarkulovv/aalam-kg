@@ -1,0 +1,15 @@
+.categories-product {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product-cat {
+	position: relative;
+}
+.product-cat img {
+	width: 261px;
+	height: 190px;
+}
+.product-cat {
+}

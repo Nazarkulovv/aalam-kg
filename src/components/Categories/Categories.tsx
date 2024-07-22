@@ -1,0 +1,50 @@
+import Image from 'next/image'
+import img2 from '../../assets/ded.png'
+import img1 from '../../assets/productMan.png'
+import img3 from '../../assets/women.png'
+import './Categories.css'
+
+export default function Categories() {
+	return (
+		<div>
+			<section id='categories'>
+				<div className='containerNew'>
+					<div className='categorie'>
+						<div className='categories-text'>
+							<h1>Категории</h1>
+						</div>
+						<div className='categories-product'>
+							<div className='product-cat'>
+								<Image src={img1} alt='' />
+								<div className='cat-block'>
+									<h4>Мужская одежда</h4>
+									<h5>
+										Футболки <span></span> Спортивки <span></span> Брюки
+									</h5>
+								</div>
+							</div>
+							<div className='product-cat'>
+								<Image src={img3} alt='' />
+								<div className='cat-block'>
+									<h4>Женская одежда</h4>
+									<h5>
+										Плятья <span></span> Двойки <span></span> Юбки
+									</h5>
+								</div>
+							</div>
+							<div className='product-cat'>
+								<Image src={img2} alt='' />
+								<div className='cat-block'>
+									<h4>Детская одежда</h4>
+									<h5>
+										Кепки <span></span> Сарафаны <span></span> Футболки{' '}
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	)
+}
