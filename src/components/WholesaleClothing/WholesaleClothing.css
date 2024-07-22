@@ -119,7 +119,6 @@ button {
 button:hover {
 	background-color: #e04b4b;
 }
-
 @media (max-width: 885px) {
 	.wholesaleClothingText h4 {
 		font-size: 2.2rem;
@@ -158,7 +157,6 @@ button:hover {
 		margin-top: 1pc;
 	}
 }
-
 @media (max-width: 700px) {
 	.wholesaleClothingText h4 {
 		font-size: 2rem;
@@ -181,5 +179,137 @@ button:hover {
 	button {
 		width: 140px;
 		margin-top: 1pc;
+	}
+}
+@media (max-width: 700px) {
+	.wholesaleClothingText h4 {
+		font-size: 2rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 1.1rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.25rem;
+	}
+	.whowholesaleClothingBlock {
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+		width: 100px;
+	}
+	.wholesaleClothingText {
+		margin-top: -9pc;
+	}
+	button {
+		width: 140px;
+		margin-top: 1pc;
+	}
+}
+@media (max-width: 700px) {
+	.wholesaleClothingText h4 {
+		font-size: 2rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 1.1rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.25rem;
+	}
+	.whowholesaleClothingBlock {
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+		width: 100px;
+	}
+	.wholesaleClothingText {
+		margin-top: -9pc;
+	}
+	button {
+		width: 140px;
+		margin-top: 1pc;
+	}
+}
+@media (max-width: 600px) {
+	.wholesaleClothingText h4 {
+		font-size: 1.75rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 1rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.15rem;
+	}
+	.whowholesaleClothingBlock {
+		width: 90px;
+	}
+	.wholesaleClothingText {
+		margin-top: -8pc;
+	}
+	button {
+		width: 130px;
+		margin-top: 0.9pc;
+	}
+}
+@media (max-width: 500px) {
+	.wholesaleClothingText h4 {
+		font-size: 1.5rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 0.95rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.1rem;
+	}
+	.whowholesaleClothingBlock {
+		width: 85px;
+	}
+	.wholesaleClothingText {
+		margin-top: -7.5pc;
+	}
+	button {
+		width: 125px;
+		margin-top: 0.8pc;
+	}
+}
+@media (max-width: 400px) {
+	.wholesaleClothingText h4 {
+		font-size: 1.25rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 0.9rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.05rem;
+	}
+	.whowholesaleClothingBlock {
+		width: 80px;
+	}
+	.wholesaleClothingText {
+		margin-top: -7pc;
+	}
+	button {
+		width: 120px;
+		margin-top: 0.7pc;
+	}
+}
+@media (max-width: 320px) {
+	.wholesaleClothingText h4 {
+		font-size: 1rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 0.85rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1rem;
+	}
+	.whowholesaleClothingBlock {
+		width: 70px;
+	}
+	.wholesaleClothingText {
+		margin-top: -6.5pc;
+	}
+	button {
+		width: 110px;
+		margin-top: 0.6pc;
 	}
 }
