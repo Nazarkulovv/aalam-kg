@@ -158,3 +158,28 @@ button:hover {
 		margin-top: 1pc;
 	}
 }
+
+@media (max-width: 700px) {
+	.wholesaleClothingText h4 {
+		font-size: 2rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 1.1rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.25rem;
+	}
+	.whowholesaleClothingBlock {
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+		width: 100px;
+	}
+	.wholesaleClothingText {
+		margin-top: -9pc;
+	}
+	button {
+		width: 140px;
+		margin-top: 1pc;
+	}
+}

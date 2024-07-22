@@ -27,7 +27,6 @@ input {
 	background-position: right;
 	padding: 100px 0;
 }
-
 @media (max-width: 1320px) {
 	.mainBac {
 		background: url('../../src//assets/wholesaleClothingImage.png') no-repeat
@@ -37,7 +36,6 @@ input {
 		padding: 100px 0;
 	}
 }
-
 @media (max-width: 900px) {
 	.mainBac {
 		background: url(/_next/static/media/bg500.14d01e04.png) no-repeat center /
