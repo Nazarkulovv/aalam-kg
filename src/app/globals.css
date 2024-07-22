@@ -42,8 +42,8 @@ input {
 	.mainBac {
 		background: url(/_next/static/media/bg500.14d01e04.png) no-repeat center /
 			cover;
-		height: 39vh;
+		height: 37vh;
 		background-position: center;
-		padding: 100px 0 500px 0;
+		padding: 100px 0 420px 0;
 	}
 }

@@ -55,7 +55,11 @@ const HeaderModal: React.FC<HeaderModalProps> = ({ close }) => {
 					<div className='modalHeader'>
 						<div className='hedaerModalImg'>
 							<div>
-								<Image src={headerModal} alt='Header modal ' />
+								<Image
+									className='hedaerModalIcon'
+									src={headerModal}
+									alt='Header modal '
+								/>
 								<Image
 									onClick={close}
 									src={hedaerModalClose}

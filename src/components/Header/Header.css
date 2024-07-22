@@ -251,9 +251,18 @@
 		font-size: 12px;
 	}
 }
-@media (max-width: 780px) {
-	#header {
+@media (max-width: 800px) {
+	.header {
+		background: #0e0e0e;
+		padding: 10px 30px;
 	}
+}
+@media (max-width: 780px) {
+	.header {
+		background: #0e0e0e;
+		padding: 10px 30px;
+	}
+
 	.modalContainer {
 		width: 104%;
 	}

@@ -32,14 +32,15 @@
 }
 .whowholesaleClothingBlock {
 	display: flex;
-	padding-left: 1pc;
-	border-left: 2px solid #ff5555;
+
 	width: 400px;
 	align-items: end;
 	justify-content: space-between;
 }
 .whowholesaleClothingBlockTexts {
 	margin-right: 20px;
+	padding-left: 1pc;
+	border-left: 2px solid #ff5555;
 }
 .whowholesaleClothingBlockTexts h4 {
 	font-size: 1.25rem;
@@ -131,5 +132,29 @@ button:hover {
 	}
 	.whowholesaleClothingBlock {
 		width: 300px;
+	}
+}
+@media (max-width: 829px) {
+	.wholesaleClothingText h4 {
+		font-size: 2.2rem;
+	}
+	.wholesaleClothingText p {
+		font-size: 1.1rem;
+	}
+	.whowholesaleClothingBlockTexts h4 {
+		font-size: 1.25rem;
+	}
+	.whowholesaleClothingBlock {
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+		width: 100px;
+	}
+	.wholesaleClothingText {
+		margin-top: -9pc;
+	}
+	button {
+		width: 140px;
+		margin-top: 1pc;
 	}
 }
