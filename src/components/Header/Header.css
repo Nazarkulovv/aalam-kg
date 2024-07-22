@@ -69,6 +69,7 @@
 	color: white;
 }
 .headerModalMain {
+	transition: 5s;
 	position: relative;
 	z-index: 1;
 	display: flex;
@@ -78,14 +79,23 @@
 }
 .modalContainer {
 	background: #ffffff;
+	width: 100%;
+	transition: top 0.5s ease-in-out;
 	position: absolute;
 	z-index: 99;
 	padding: 20px;
-	top: -5pc;
+	top: -20pc;
 	left: 0;
 	width: 106%;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+}
+.modalContainer.visible {
+	top: 16pc;
+	left: 5px;
+}
+.modalContainer.hidden {
+	top: -30pc;
 }
 .modalNav {
 	display: flex;
@@ -275,7 +285,7 @@
 }
 @media (max-width: 600px) {
 	.modalContainer {
-		width: 104%;
+		width: 96%;
 	}
 }
 @media (max-width: 500px) {

@@ -62,9 +62,8 @@ const HeaderModal: React.FC<HeaderModalProps> = ({ close }) => {
 								/>
 								<Image
 									style={{
-										width: '25px',
-										height: '25px',
-										
+										width: '22px',
+										height: '22px'
 									}}
 									onClick={close}
 									src={hedaerModalClose}
@@ -117,7 +116,7 @@ const HeaderModal: React.FC<HeaderModalProps> = ({ close }) => {
 
 const Header: React.FC = () => {
 	const [modal, setModal] = useState(false)
-	const [modalNew, setModalNew] = useState(false)
+	const [modalVisible, setModalVisible] = useState(false)
 
 	useEffect(() => {
 		function handleResize() {
@@ -138,11 +137,7 @@ const Header: React.FC = () => {
 	}, [])
 
 	function handleModal() {
-		setModalNew(prev => !prev)
-	}
-
-	function toggleModal() {
-		setModal(!modal)
+		setModalVisible(!modalVisible)
 	}
 
 	return (
@@ -159,7 +154,14 @@ const Header: React.FC = () => {
 							<HeaderMain />
 						)}
 					</div>
-					{modalNew && <HeaderModal close={handleModal} />}
+					<div
+						style={{
+							background: 'none'
+						}}
+						className={`modalContainer ${modalVisible ? 'visible' : 'hidden'}`}
+					>
+						<HeaderModal close={handleModal} />
+					</div>
 				</div>
 			</header>
 		</div>
