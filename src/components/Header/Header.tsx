@@ -61,6 +61,11 @@ const HeaderModal: React.FC<HeaderModalProps> = ({ close }) => {
 									alt='Header modal '
 								/>
 								<Image
+									style={{
+										width: '25px',
+										height: '25px',
+										
+									}}
 									onClick={close}
 									src={hedaerModalClose}
 									alt='hedaer modal close'
