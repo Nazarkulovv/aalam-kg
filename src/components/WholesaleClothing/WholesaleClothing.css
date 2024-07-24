@@ -23,7 +23,8 @@
 	margin-bottom: 20px;
 }
 .wholesaleClothingText span {
-	color: #ff5555;
+	font-size: 72px;
+	font-family: 'Hagrid';
 }
 .wholesaleClothingText p {
 	font-size: 1.25rem;

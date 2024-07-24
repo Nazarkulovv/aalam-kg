@@ -29,7 +29,7 @@ export default function Footer() {
 								<Image src={what} alt='' />
 							</button>
 							<h4 className='ad'>© 2023 «AALAM». Все права защищены</h4>
-							
+
 							<h4>Разработал Motion Web LLC </h4>
 						</div>
 					</div>
