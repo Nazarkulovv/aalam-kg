@@ -5,6 +5,7 @@ import './FreeFulfillment.css'
 export default function FreeFulfillment() {
 	return (
 		<div className='container'>
+			<div className='box-bg'></div>
 			<div className='content'>
 				<div className='content-text'>
 					<h1>📦 Бесплатный фулфилмент</h1>

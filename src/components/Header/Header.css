@@ -84,9 +84,8 @@
 	position: absolute;
 	z-index: 99;
 	padding: 20px;
-	top: -20pc;
+	top: -17.5pc;
 	left: 0;
-	width: 106%;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
@@ -266,9 +265,6 @@
 		background: #0e0e0e;
 		padding: 10px 30px;
 	}
-	.modalContainer {
-		margin-top: 1pc;
-	}
 }
 @media (max-width: 780px) {
 	.header {
@@ -277,20 +273,30 @@
 	}
 
 	.modalContainer {
-		width: 104%;
+		width: 99%;
 	}
+}
+@media (max-width: 750px) {
+	.header {
+		background: #0e0e0e;
+		padding: 10px 30px;
+	}
+
 	.modalContainer {
-		width: 104%;
+		width: 108%;
+		margin-left: -1.9pc;
 	}
 }
 @media (max-width: 600px) {
 	.modalContainer {
-		width: 96%;
+		width: 108%;
+		margin-left: -1.7pc;
 	}
 }
 @media (max-width: 500px) {
 	.modalContainer {
-		width: 101%;
+		width: 106%;
+		margin-left: -1.4pc;
 	}
 	.hedaerModalImg div {
 		width: 65%;
@@ -298,7 +304,7 @@
 }
 @media (max-width: 400px) {
 	.modalContainer {
-		width: 98%;
+		width: 106%;
 	}
 	.hedaerModalImg div {
 		width: 69%;

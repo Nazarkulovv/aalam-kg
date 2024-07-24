@@ -4,6 +4,8 @@ import FreeFulfillment from '@/components/FreeFulfillment/FreeFulfillment'
 import HeaderInSectionColors from '@/Pages/HeaderInSectionColors'
 import styles from './page.module.css'
 import About from '@/components/About/About'
+import Qcestion from '@/components/Qcestion/Qcestion'
+import Footer from '@/components/Footer/Footer'
 
 export default function Home() {
 	return (
@@ -12,7 +14,9 @@ export default function Home() {
 			<AllGoods />
 			<Categories />
 			<FreeFulfillment />
-			<About/>
+			<About />
+			<Qcestion />
+			<Footer/>
 		</main>
 	)
 }

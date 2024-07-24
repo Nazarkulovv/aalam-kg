@@ -1,0 +1,96 @@
+.about {
+	display: flex;
+	align-items: center;
+	margin-top: 14pc;
+	justify-content: space-between;
+}
+.aboutBlokcImg {
+	width: 117px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	z-index: -1;
+	height: 146px;
+	border-radius: 10px;
+	border: 0.91px solid #f4f5f6;
+	box-shadow: 0px 36.48px 29.18px -21.89px #0000001f;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: white;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	position: absolute;
+
+	top: -4pc;
+	left: 6pc;
+}
+.aboutBLock {
+	z-index: -1;
+	width: 340px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+	height: 300px;
+	border-radius: 25px;
+	background: #ffffff;
+
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+
+.aboutBLockText {
+	margin-top: 5pc;
+}
+.aboutBLockText h3 {
+	font-size: 28px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: -0.05em;
+}
+.aboutBLockText p {
+	font-family: Gotham;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22.48px;
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+	.aboutBLock {
+		width: 304px;
+		margin-top: 3pc;
+	}
+	.aboutBlokcImg {
+		left: 5pc;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.aboutBLock {
+		width: 248px;
+	}
+	.aboutBLockText p {
+		margin-top: 10px;
+		font-size: 14px;
+		line-height: 13.48px;
+	}
+	.aboutBlokcImg {
+		left: 3.6pc;
+	}
+}

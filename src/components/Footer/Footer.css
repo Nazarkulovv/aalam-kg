@@ -1,0 +1,147 @@
+#footer {
+	background: #0c0b0b;
+	padding-top: 3pc;
+	margin-top: 10pc;
+	padding-bottom: 2pc;
+}
+
+.footerImgInText {
+	display: flex;
+	align-items: center;
+	gap: 30pc;
+}
+
+.footer-text {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.footer-text a {
+	font-family: Gotham;
+	font-size: 16px;
+	color: white;
+	font-weight: 600;
+	line-height: 14px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.hr {
+	margin-top: 2pc;
+	margin-bottom: 2pc;
+	border: 1px solid #292929;
+}
+
+.tell {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 12px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.footerEnd {
+	margin-top: 1pc;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ad {
+	display: none;
+}
+.footerEnd h4 {
+	color: #797979;
+	font-family: SF Pro Text;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.footerEnd button {
+	background: none;
+	border: 2px solid #e6e8ec;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+	padding-left: 1pc;
+	width: 205px;
+	margin-left: -4pc;
+
+	align-items: center;
+}
+
+.footerEnd button:hover {
+	background: none;
+}
+
+@media (max-width: 1530px) {
+	.footerImgInText {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0;
+	}
+}
+@media (max-width: 830px) {
+	.footerImgInText {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0;
+	}
+	.footerImgInText img {
+		display: none;
+	}
+	.ad {
+		display: block;
+		margin-top: 1pc;
+	}
+	.da {
+		display: none;
+	}
+	.footer-text {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.footer-text a {
+		width: 100px;
+	}
+	.footerEnd {
+		display: flex;
+		flex-direction: column;
+	}
+	.footerEnd button {
+		margin: 0;
+	}
+}
+
+@media (max-width: 710px) {
+	.footer-text a {
+		width: 70px;
+		margin-top: 1pc;
+	}
+}
+@media (max-width: 500px) {
+	.w {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.footer-text {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.footer-text a {
+		width: 85px;
+		margin-top: 0.5pc;
+	}
+}
