@@ -18,9 +18,12 @@ export default function Categories() {
 								<Image src={img1} alt='' />
 								<div className='cat-block'>
 									<h4>Мужская одежда</h4>
+									<div className='css-1bs61f1'></div>
 									<h5>
-										<span className='cat-blcokH5'>Футболки</span> <span className='dot'>.</span>{' '}
-										<span className='cat-blcokH5'>Спортивки</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Футболки</span>{' '}
+										<span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Спортивки</span>{' '}
+										<span className='dot'>.</span>{' '}
 										<span className='cat-blcokH5'>Брюки</span>
 									</h5>
 								</div>
@@ -29,9 +32,12 @@ export default function Categories() {
 								<Image src={img3} alt='' />
 								<div className='cat-block'>
 									<h4>Женская одежда</h4>
+									<div className='css-1bs61f1'></div>
 									<h5>
-										<span className='cat-blcokH5'>Плятья</span> <span className='dot'>.</span>{' '}
-										<span className='cat-blcokH5'>Двойки</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Плятья</span>{' '}
+										<span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Двойки</span>{' '}
+										<span className='dot'>.</span>{' '}
 										<span className='cat-blcokH5'>Юбки</span>
 									</h5>
 								</div>
@@ -40,9 +46,12 @@ export default function Categories() {
 								<Image src={img2} alt='' />
 								<div className='cat-block'>
 									<h4>Детская одежда</h4>
+									<div className='css-1bs61f1'></div>
 									<h5>
-										<span className='cat-blcokH5'>Кепки</span> <span className='dot'>.</span>{' '}
-										<span className='cat-blcokH5'>Сарафаны</span> <span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Кепки</span>{' '}
+										<span className='dot'>.</span>{' '}
+										<span className='cat-blcokH5'>Сарафаны</span>{' '}
+										<span className='dot'>.</span>{' '}
 										<span className='cat-blcokH5'>Футболки</span>
 									</h5>
 								</div>

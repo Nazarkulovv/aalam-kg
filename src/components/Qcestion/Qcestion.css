@@ -83,6 +83,7 @@
 		height: 50vh;
 		display: flex;
 		margin-top: 10pc;
+		padding: 10px 0;
 		align-items: center;
 		justify-content: center;
 		padding: 20px 0;
@@ -100,7 +101,9 @@
 		width: 99%;
 		margin: 0 auto;
 	}
-
+	#qces {
+		padding: 50px 0;
+	}
 	.quesHandle button {
 		width: 100%;
 	}

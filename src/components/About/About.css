@@ -83,7 +83,7 @@
 
 @media (max-width: 1200px) {
 	.aboutBLock {
-		width: 248px;
+		width: 298px;
 	}
 	.aboutBLockText p {
 		margin-top: 10px;
@@ -91,6 +91,6 @@
 		line-height: 13.48px;
 	}
 	.aboutBlokcImg {
-		left: 3.6pc;
+		left: 4.5pc;
 	}
 }

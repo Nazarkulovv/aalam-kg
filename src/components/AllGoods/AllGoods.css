@@ -263,10 +263,10 @@
 	}
 
 	.goodsProductsBlock img {
-		width: 204px;
+		width: 274px;
 	}
 	.productBlockM {
-		width: 186px;
+		width: 226px;
 	}
 	.productBlockM h5 img {
 		height: 10px;
@@ -287,7 +287,7 @@
 @media (max-width: 450px) {
 	.image1,
 	.image11 {
-		width: 309px;
+		width: 349px;
 		object-fit: cover;
 		height: 250px;
 	}
@@ -297,14 +297,15 @@
 		font-size: 25px;
 	}
 	.goodsProductsBlock img {
-		width: 204px;
+		width: 244px;
+		object-fit: cover;
 	}
 	.productBlockM {
-		width: 186px;
+		width: 226px;
 	}
 	.productBlockM h5 img {
 		height: 10px;
-		width: 52px;
+		width: 62px;
 	}
 	.goodsBlocksMain {
 		display: flex;

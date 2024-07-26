@@ -1,11 +1,9 @@
 'use client'
-import Image from 'next/image'
 import { useState } from 'react'
 import { BiPhoneCall } from 'react-icons/bi'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import styled from 'styled-components'
-import image from '../../assets/wholesaleClothingImage.png'
 import './WholesaleClothing.css'
 const StyledBiPhoneCall = styled(BiPhoneCall)`
 	transition: color 0.3s, background 0.3s;
@@ -38,6 +36,19 @@ export default function WholesaleClothing() {
 
 	return (
 		<section id='wholesaleClothing'>
+			<div
+				className='css-ryzr8s'
+				style={{
+					filter: 'blur(200px)'
+				}}
+			></div>
+			<div
+				className='css-1x96uq0'
+				style={{
+					filter: 'blur(150px)'
+				}}
+			></div>
+
 			<div className='containerNew'>
 				<div className='wholesaleClothing'>
 					<div className='wholesaaleClonthingTextInImages'>
